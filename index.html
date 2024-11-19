@@ -1,0 +1,179 @@
+<!DOCTYPYE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabrin Cake Parlor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/Identity.jpg"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Redefinig sweetness</h1>
+            <p>Delicious cakes for various occassions including birthdays, weddings, graduations anniversaries and more.</p>
+            <a href="" class="hero-btn"> Delve In To Know More.</a>
+        </div>
+        
+    </section>
+    
+    
+<!------ Products ------>
+<section class="products">
+    <h1>Products we offer.</h1>
+    <p>We sell a wide range of cake products suitable for all parties and celebrations.</p>
+    
+    <div class="row">
+        <div class="product-col"> 
+            <h3>Simple cakes</h3>
+            <p>Vannila delight, Chocolate charm, Lemon love, Red velvet and many more.</p>
+        </div>
+        
+        <div class="product-col"> 
+            <h3>Classy cakes</h3>
+            <p>Luxe lavender, Golden opulent, Champagne toast, Creamy couture and many more.</p>
+        </div>
+        
+        <div class="product-col"> 
+            <h3>Themed cakes</h3>
+            <p>Birthday cakes, Wedding cakes, Graduation cakes, Holiday cakes and many more.</p>
+        </div>
+    </div>
+    
+</section>
+    
+    
+<!------ Bakery ------>
+<section class="bakery">
+    <h1>Our bakery products</h1>
+    <p>Samples of our famous bakery  products in Teso sub-region, Eastern Uganda.</p>
+    
+    <div class="row">
+        <div class="product-col">
+            <img src="images/Chocolate.png">
+            <div class="layer">
+                <h3>CHOCOLATE CHARM</h3>
+            </div>
+        </div>
+        
+        <div class="product-col">
+            <img src="images/Golden_opulent.jpg">
+            <div class="layer">
+                <h3>GOLDEN OPULENT</h3>
+            </div>
+        </div>
+        
+        <div class="product-col">
+            <img src="images/Wedding_elegant.jpg">
+            <div class="layer">
+                <h3>WEDDING GLASS</h3>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+<!------ Additional Products ------>
+<section class="additional-products">
+    <h1> Additional products </h1>
+    <p>More delicious and sweet cake products for our dear customers.</p>
+    
+    <div class="row">
+        <div class="additional-col">
+            <img src="images/Sliced_chocolate.jpg">
+            <h3>SLICED CHOCOLATE</h3>
+            <p>So yummy</p>
+        </div>
+        
+        <div class="additional-col">
+            <img src="images/Birthday_pink.jpg">
+            <h3>PINK BIRTHDAY</h3>
+            <p>So sweet</p>
+        </div>
+        
+        <div class="additional-col">
+            <img src="images/Birthday_gold.jpg">
+            <h3>GOLD BIRTHDAY</h3>
+            <p>So delicious</p>
+        </div>
+    </div>
+</section>
+    
+    
+<!------ Testimonials ------>
+<section class="testimonilas">
+    <h1>What our customers say</h1>
+    <p>The different reviews from our valued customers.</p>
+    
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/Kabrin.jpg">
+            <div>
+                <p>Kabrin Cake Parlor is a game changer with sweet and indulgent cakes. Their cakes are a work of art</p>
+                <h3>Angida Kbrn</h3>
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-regular fa-star"></i> 
+            </div>
+        </div>
+        
+        <div class="testimonial-col">
+            <img src="images/John_Bosco_Kabrin%20(1).jpg">
+            <div>
+                <p>Kabrin Cake Parlor never disaaponts. Their cakes are a celebration in every bite and I LOVE IT.</p>
+                <h3>John Bosco Kabrin</h3>
+               <i class="fa-solid fa-star"></i> 
+               <i class="fa-solid fa-star"></i> 
+               <i class="fa-solid fa-star"></i> 
+               <i class="fa-solid fa-star"></i> 
+               <i class="fa-solid fa-star-half"></i> 
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+<!-------- Call to action -------->
+<section class="cta">
+    <h1>Order yours <br> now</h1>
+    <a href="">CONTACT US</a> 
+</section>
+    
+    
+    
+    
+    
+    
+<!------ JavaScript for Toggle Menu ------>    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
